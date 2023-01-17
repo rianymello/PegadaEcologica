@@ -16,6 +16,7 @@
 	font: inherit;
 	vertical-align: baseline;
 	max-width: 100%;
+	
 }
 
 body {
@@ -166,6 +167,7 @@ input, select, textarea {
 	p, ul, ol, dl, table, blockquote, form {
 		margin-bottom: 2em;
 	}
+
 
 /* Container */
 
@@ -1465,6 +1467,9 @@ input, select, textarea {
 			line-height: 1.5em;
 		}
 
+		
+			
+
 /* Table */
 
 	table {
@@ -2076,10 +2081,13 @@ input, select, textarea {
 /* Logo */
 
 	#logo {
-		width: 100%;
+		
 		text-align: center;
 		position: relative;
 		top: 1.5em;
+		align-content: center;
+		justify-content: center;
+		flex-direction: column;
 	}
 
 		#logo h1 {
@@ -2101,6 +2109,16 @@ input, select, textarea {
 		}
 		.img-logo {
 			margin-bottom: 1rem;
+		}
+		.slogam{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		.paragrafo-roxo{
+			color: #9176FF !important;
 		}
 
 /* Nav */
@@ -2882,6 +2900,10 @@ input, select, textarea {
 				text-align: center;
 				padding-left: 2em;
 				padding-right: 2em;
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+				justify-content: center;
 			}
 
 				#logo h1 {
@@ -3140,3 +3162,4 @@ input, select, textarea {
 	opacity: 1;
 	transform: translate3d(0,0,0);
 }
+
