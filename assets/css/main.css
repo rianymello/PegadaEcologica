@@ -17,6 +17,7 @@
 	vertical-align: baseline;
 	max-width: 100%;
 	
+	
 }
 
 body {
@@ -24,6 +25,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	display: flex;
+	flex-direction: column;
 
 }
 
@@ -3163,3 +3165,7 @@ input, select, textarea {
 	transform: translate3d(0,0,0);
 }
 
+.btn-topo {
+	position: absolute ;
+	margin-left: 60%;
+}
