@@ -1475,7 +1475,7 @@ input, select, textarea {
 /* Table */
 
 	table {
-		width: 100%;
+		width: 70%;
 	}
 
 		table.default {
@@ -1483,7 +1483,7 @@ input, select, textarea {
 		}
 
 			table.default tbody tr:nth-child(2n+2) {
-				background: #f4f4f4;
+				background: #171717;
 			}
 
 			table.default td {
@@ -1491,14 +1491,14 @@ input, select, textarea {
 			}
 
 			table.default th {
-				text-align: left;
-				font-weight: 400;
+				text-align: center;
 				padding: 0.5em 1em 0.5em 1em;
 			}
 
 			table.default thead {
-				background: #484d55;
-				color: #fff;
+				background: #171717;
+				color: #ffffff;
+				font-weight: bolder;
 			}
 
 			table.default tfoot {
@@ -3166,6 +3166,9 @@ input, select, textarea {
 }
 
 .btn-topo {
-	position: absolute ;
-	margin-left: 60%;
+	position: fixed;
+	display: flex;
+	right: 20%;
+	bottom: 20px ;
+	
 }
