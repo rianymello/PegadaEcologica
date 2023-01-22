@@ -3115,9 +3115,11 @@ input, select, textarea {
 }
 
 .btn-topo {
-	position: fixed ;
-	bottom: 20px;
-	right: 20px;
+	position: fixed;
+	display: flex;
+	right: 20%;
+	bottom: 20px ;
+	
 }
 
 /* Scrollbar */
