@@ -1,11 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
 
-/*
-	Escape Velocity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 *{
 	margin: 0;
@@ -26,7 +22,7 @@ body {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 ol, ul {
@@ -93,25 +89,7 @@ input, select, textarea {
 		transition: none !important;
 	}
 
-	body, input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 400;
-		color: #919499;
-		font-size: 14pt;
-		line-height: 1.75em;
-		letter-spacing: 0.025em;
-	}
-
-	h1, h2, h3, h4, h5, h6 {
-		font-weight: 700;
-		color: #484d55;
-	}
-
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			text-decoration: none;
-		}
-
+	
 	a {
 		-moz-transition: color .25s ease-in-out;
 		-webkit-transition: color .25s ease-in-out;
@@ -130,11 +108,11 @@ input, select, textarea {
 		color: #484d55;
 	}
 
-	blockquote {
+	/*blockquote {
 		border-left: solid 0.5em #ddd;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
-	}
+	} */
 
 	em, i {
 		font-style: italic;
@@ -166,10 +144,7 @@ input, select, textarea {
 		clear: both;
 	}
 
-	p, ul, ol, dl, table, blockquote, form {
-		margin-bottom: 2em;
-	}
-
+	
 
 /* Container */
 
@@ -1455,7 +1430,7 @@ input, select, textarea {
 
 		header.style1 h2 {
 			font-weight: 700;
-			font-size: 2em;
+			font-size: 1.7em;
 			letter-spacing: 0.075em;
 			line-height: 1.5em;
 		}
@@ -1464,7 +1439,7 @@ input, select, textarea {
 			color: #b1b4b9;
 			display: block;
 			margin: 1.15em 0 0 0;
-			font-size: 1.3em;
+			font-size: 14.4px;
 			letter-spacing: 0.075em;
 			line-height: 1.5em;
 		}
@@ -1472,39 +1447,39 @@ input, select, textarea {
 		
 			
 
-/* Table */
+	
 
-	table {
-		width: 100%;
-	}
-
-		table.default {
-			width: 100%;
+		table {
+			width: 70%;
 		}
-
-			table.default tbody tr:nth-child(2n+2) {
-				background: #f4f4f4;
+	
+			table.default {
+				width: 100%;
 			}
-
-			table.default td {
-				padding: 0.5em 1em 0.5em 1em;
-			}
-
-			table.default th {
-				text-align: left;
-				font-weight: 400;
-				padding: 0.5em 1em 0.5em 1em;
-			}
-
-			table.default thead {
-				background: #484d55;
-				color: #fff;
-			}
-
-			table.default tfoot {
-				background: #eee;
-			}
-
+	
+				table.default tbody tr:nth-child(2n+2) {
+					background: #171717;
+				}
+	
+				table.default td {
+					padding: 1em 1em 1em 1em;
+				}
+	
+				table.default th {
+					text-align: center;
+					color: #fff;
+					padding: 1em 1em 1em 1em;
+				}
+	
+				table.default thead {
+					background: #171717;
+					color: #eee;
+					font-weight: bolder;
+				}
+	
+				table.default tfoot {
+					background: #eee;
+				}
 /* Form */
 
 	form label {
@@ -1838,6 +1813,9 @@ input, select, textarea {
 			padding-top: 3em;
 			padding-left: 5em;
 			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
 		}
 
 		@media screen and (min-width: 981px) {
@@ -1856,10 +1834,14 @@ input, select, textarea {
 			letter-spacing: 0.05em;
 		}
 
+		.feature-list p {
+			text-align: justify;
+		}
+
 			.feature-list h3:before {
 				display: block;
 				color: #fff;
-				background: #2f333b url("images/overlay.png");
+				background: #171717 url("images/overlay.png");
 				border-radius: 2.5em;
 				text-align: center;
 				width: 2.5em;
@@ -1916,40 +1898,7 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-/* Box */
 
-	.box header {
-		margin: 0 0 1.5em 0;
-	}
-
-		.box header.style1 {
-			position: relative;
-			margin: -0.5em 0 0 0;
-			padding-top: 0;
-		}
-
-	.box h2 {
-		margin: 0 0 0.75em 0;
-		font-size: 1.15em;
-		letter-spacing: 0.05em;
-	}
-
-	.box h3 {
-		margin: 0 0 0.5em 0;
-		font-size: 1em;
-		font-weight: 600;
-		letter-spacing: 0.05em;
-	}
-
-	.box.post-excerpt .image.left {
-		position: relative;
-		top: 0.5em;
-		width: 5em;
-	}
-
-	.box.post-excerpt h3, .box.post-excerpt p {
-		margin-left: 7em;
-	}
 
 /* Wrapper */
 
@@ -3166,6 +3115,52 @@ input, select, textarea {
 }
 
 .btn-topo {
-	position: absolute ;
-	margin-left: 60%;
+	position: fixed ;
+	bottom: 20px;
+	right: 20px;
 }
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+	
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #171717;
+	
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #555;
+	border-radius: 10px;
+
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(75, 75, 75);
+  }
+  
+  .some-title {
+	font-size: 23px;
+	color: #eee;
+	margin-bottom: 1em;
+	margin-top: 1.7em;
+  }
+
+  .paragrafos {
+	font-size: 18px;
+	margin-bottom: 2rem;
+	text-align: justify;
+	line-height: 1.5em
+  }
+
+
+  
+
+  
