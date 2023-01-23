@@ -1435,15 +1435,7 @@ input, select, textarea {
 			line-height: 1.5em;
 		}
 
-		header.style1 p {
-			color: #b1b4b9;
-			display: block;
-			margin: 1.15em 0 0 0;
-			font-size: 14.4px;
-			letter-spacing: 0.075em;
-			line-height: 1.5em;
-		}
-
+	
 		
 			
 
@@ -1836,12 +1828,13 @@ input, select, textarea {
 
 		.feature-list p {
 			text-align: justify;
+			color: #eee;
 		}
 
 			.feature-list h3:before {
 				display: block;
 				color: #fff;
-				background: #171717 url("images/overlay.png");
+				background: #1d1d1d url("images/overlay.png");
 				border-radius: 2.5em;
 				text-align: center;
 				width: 2.5em;
@@ -3014,6 +3007,8 @@ input, select, textarea {
 	font-weight: 500;
 	position: relative;
 	top: .2em;
+	color: #fff;
+	padding: 0.7em;
   }
   
   .card__name {
@@ -3024,6 +3019,8 @@ input, select, textarea {
 	text-align: center;
 	font-size: 1.1rem;
 	margin: 1em 0;
+	color: #eee;
+	margin: 1em;
   }
   
   .card__btn {
@@ -3114,10 +3111,10 @@ input, select, textarea {
 	transform: translate3d(0,0,0);
 }
 
-.btn-topo {
+.fa-arrow-circle-up {
 	position: fixed;
 	display: flex;
-	right: 20%;
+	right: 2%;
 	bottom: 20px ;
 	
 }
@@ -3153,16 +3150,34 @@ input, select, textarea {
 	color: #eee;
 	margin-bottom: 1em;
 	margin-top: 1.7em;
+	text-align: center;
   }
 
   .paragrafos {
 	font-size: 18px;
 	margin-bottom: 2rem;
-	text-align: justify;
-	line-height: 1.5em
+	text-align: center ;
+	line-height: 1.5em;
+	color: #eee;
+  }
+.fa-arrow-circle-up {
+	color: #7f60fa;
+}
+
+  .title-white {
+	margin-top: 2rem; 
+	color: #eee; 
+	font-size: 32px; 
+	text-align: center;
+	 margin-bottom: 1.6em;
+	 font-weight: 700;
   }
 
 
-  
+  .citacao-content {
+	text-align: center;
+	color: #eee;
 
-  
+  }
+
+ 
