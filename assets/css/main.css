@@ -2230,7 +2230,6 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #171717 url("images/overlay.png");
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 6em;
@@ -2297,7 +2296,7 @@ input, select, textarea {
 			}
 
 		#footer .title {
-			background: #171717 url("images/overlay.png");
+		
 			color: rgb(255, 255, 255);
 		}
 
@@ -3178,6 +3177,10 @@ input, select, textarea {
 	text-align: center;
 	color: #eee;
 
+  }
+
+  .img-lipor {
+	margin-left: 20%;
   }
 
  
