@@ -3148,7 +3148,7 @@ input, select, textarea {
 	font-size: 23px;
 	color: #eee;
 	margin-bottom: 1em;
-	margin-top: 1.7em;
+	margin-top: 2em;
 	text-align: center;
   }
 
@@ -3201,14 +3201,73 @@ input, select, textarea {
 	padding-top: 3rem;
  }
 
- .consequences-solo {
+ .consequences-solo, .solucoes-solo {
 	color: #eee;
 	margin-left: 40px;
 	margin-right: 40px;
  }
 
- .child-consequence {
+ .child-consequence, .child-soluce {
 	margin: 2rem;
 	text-align: justify;
 	line-height: 19px;
+ }
+
+ .section-conclusao-solo {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: center;
+ }
+
+ .all-child {
+	 display: flex;
+	 flex-direction: row;
+	 color: #eee;
+ }
+
+ .titulo-conclusao-solo {
+	 color: #ffffff;
+	 font-size: 23px;
+	 text-align: center;
+	 padding: 1rem;
+	 padding-top: 4em;
+ }
+
+ .conclusao-solo-child-2 {
+	background: #1d1d1d url(images/overlay.png);
+    border-radius: 2.5em;
+    text-align: center;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    margin-right: 0.75em;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    align-items: center;
+    display: grid;
+ }
+
+ .content-child {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: center ;
+	 max-width: 243px;
+	 padding: 1rem;
+ }
+
+ .p-conclusao-solo {
+	 text-align: center;
+	 display: flex;
+	 padding: 1rem;
+	 color: #9176FF;
+	 line-height: 1.5em;
+ }
+
+ .footer-conclusao-solo {
+	 color: #eee;
+	 text-align: center;
+	 line-height: 1.5em;
  }
