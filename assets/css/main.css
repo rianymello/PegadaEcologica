@@ -2965,7 +2965,7 @@ input, select, textarea {
 	box-shadow: 0 0 2em rgba(0, 0, 0, .2);
 	padding: 2em 1em;
   
-	display: flex;
+	display: flex !important;
 	align-items: center;
 	flex-direction: column;
   
