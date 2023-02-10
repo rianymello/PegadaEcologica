@@ -1421,6 +1421,7 @@ input, select, textarea {
 	section:last-child,
 	article:last-child {
 		margin-bottom: 0;
+	
 	}
 
 	header.style1 {
@@ -1988,7 +1989,7 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
+	.header {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2008,7 +2009,7 @@ input, select, textarea {
 		padding: 0;
 	}
 
-		#header:before {
+		.header:before {
 			content: '';
 			position: absolute;
 			top: 0;
@@ -2018,13 +2019,13 @@ input, select, textarea {
 			background: #171717;
 		}
 
-		.homepage #header {
+		.homepage .header {
 			height: 35em;
 		}
 
 /* Logo */
 
-	#logo {
+	.logo {
 		
 		text-align: center;
 		position: relative;
@@ -2034,7 +2035,7 @@ input, select, textarea {
 		flex-direction: column;
 	}
 
-		#logo h1 {
+		.logo h1 {
 			font-weight: 900;
 			text-transform: uppercase;
 			color: #fff;
@@ -2042,7 +2043,7 @@ input, select, textarea {
 			letter-spacing: 0.25em;
 		}
 
-		#logo p {
+		.logo p {
 			color: #eee;
 			color: rgba(255, 255, 255, 0.5);
 			text-transform: uppercase;
@@ -3180,7 +3181,7 @@ input, select, textarea {
   }
 
   .img-lipor {
-	margin-left: 20%;
+	margin-bottom: 5%;
   }
 
  #btn-topo {
@@ -3270,4 +3271,10 @@ input, select, textarea {
 	 color: #eee;
 	 text-align: center;
 	 line-height: 1.5em;
+ }
+
+ .lipor-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
  }
