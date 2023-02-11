@@ -1,0 +1,140 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
+
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    color: #eee;
+
+  }
+  
+  body {
+    margin: 40px;
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-family: sans-serif;
+  }
+  
+  p {
+  color: #eee;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  margin: 1.25em 0 0 0;
+  display: block;
+  letter-spacing: 0.2em;
+  font-size: 0.9em;
+  margin-bottom: 10%;
+}
+
+  .wrapper {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(15,5vw);
+  }
+  
+  .box {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  
+  .item2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  
+  .item3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+  }
+
+  .item4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+  }
+
+  .item5{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+  }
+  .item6{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+  }
+   .item7{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end:10;
+  }
+   .item8{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 9;
+    grid-row-end:10;
+  }
+   .item9{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 9;
+    grid-row-end:10;
+    
+  }
+   .item10{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 9;
+    grid-row-end:12;
+  } 
+  .item11{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 12;
+    grid-row-end:16;
+  } 
+  .item12{
+    
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 12;
+    grid-row-end:16;
+  
+  } 
+ 
+  
+  .images {
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+
+  .logo {
+    margin-top: 15%;
+    height: 80px;
+    width: 80px;
+  }
