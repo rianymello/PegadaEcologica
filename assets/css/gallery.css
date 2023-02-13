@@ -33,6 +33,10 @@ html {
   margin-bottom: 10%;
 }
 
+section {
+  padding-bottom: 5%;
+}
+
   .wrapper {
     display: grid;
     grid-gap: 15px;
@@ -137,4 +141,43 @@ html {
     margin-top: 15%;
     height: 80px;
     width: 80px;
+  }
+
+  .button {
+		-moz-transition: all .25s ease-in-out;
+		-webkit-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+		display: inline-block;
+		background: #444;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: 0.25em;
+		text-decoration: none;
+		border-radius: 0.35em;
+		border: 0;
+		outline: 0;
+		cursor: pointer;
+		padding: 0 2.25em 0 2.25em;
+		font-size: 0.9em;
+		min-width: 12em;
+		height: 4em;
+		line-height: 4em;
+	}
+
+  .button.large {
+    font-size: 1em;
+    min-width: 14em;
+  }
+
+  .button.style2 {
+    background: none;
+    color: #606167;
+    box-shadow: inset 0px 0px 2px 0px #a0a1a7;
+  }
+
+  .button.style2:hover {
+    box-shadow: inset 0px 0px 2px 0px #9176FF;
+    color: #9176FF;
   }
